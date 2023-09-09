@@ -219,7 +219,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #FFF5E0;
 		font-weight: 300;
 	}
 
@@ -232,7 +232,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #FFF5E0;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -376,7 +376,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 0;
 		box-shadow: inset 0 0 0 2px #36383c;
-		color: #ffffff !important;
+		color: #FFF5E0 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
@@ -396,7 +396,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #34a58e;
+			box-shadow: inset 0 0 0 2px #279EFF;
 			color: #fb6f92 !important;
 		}
 
@@ -405,7 +405,8 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				background-color: rgba(52, 165, 142, 0.15);
+				/* background-color: rgba(52, 165, 142, 0.15); */
+				background-color: #9400FF;
 				color: #fb6f92 !important;
 			}
 
@@ -454,7 +455,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #34a58e;
+			background-color: #9400FF;
 			box-shadow: none;
 		}
 
@@ -463,8 +464,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47c5ab;
-				color: #ffffff !important;
+				background-color: #279EFF;
+				color: #FFF5E0 !important;
 			}
 
 				input[type="submit"].primary:hover:active,
@@ -563,7 +564,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #FFF5E0;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -612,7 +613,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: inset 0 0 0 2px #34a58e;
+			/* box-shadow: inset 0 0 0 2px #34a58e; */
+			box-shadow: inset 0 0 0 2px #9F0D7F;
 		}
 
 	select {
@@ -626,7 +628,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: #FFF5E0;
 			background: #242629;
 		}
 
@@ -712,7 +714,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #34a58e;
 			border-color: #34a58e;
-			color: #ffffff;
+			color: #FFF5E0;
 			content: '\f00c';
 		}
 
@@ -726,22 +728,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: #707071 !important;
+		color: #E57C23 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #707071 !important;
+		color: #E57C23 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #707071 !important;
+		color: #E57C23 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #707071 !important;
+		color: #E57C23 !important;
 		opacity: 1.0;
 	}
 
@@ -973,7 +975,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon {
-				color: #505051;
+				color: #FFF80A;
 			}
 
 				ul.icons li .icon:before {
@@ -1007,7 +1009,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #FFF5E0;
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -1279,7 +1281,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				color: #FFF5E0;
 			}
 
 		.poptrox-popup .loader {
@@ -1525,7 +1527,7 @@ input, select, textarea {
 						-ms-transition: background-color 0.5s ease;
 						transition: background-color 0.5s ease;
 						border: 0;
-						color: #ffffff;
+						color: #FFF5E0;
 						display: inline-block;
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
@@ -1533,13 +1535,13 @@ input, select, textarea {
 					}
 
 						#header nav > ul > li a.icon:before {
-							color: #505051;
+							color: #FFF80A;
 							float: right;
 							margin-left: 0.75em;
 						}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff !important;
+							color: #FFF5E0 !important;
 						}
 
 						#header nav > ul > li a.active {
@@ -2037,7 +2039,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .copyright {
-		color: #505051;
+		color: #FFF80A;
 		font-size: 0.9em;
 	}
 
